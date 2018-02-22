@@ -27,7 +27,6 @@
     </style>
 
     <style name="icon" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="android:layout_marginStart">@dimen/marginInfo</item>
         <item name="android:layout_width">@dimen/icon</item>
         <item name="android:layout_height">@dimen/icon</item>
         <item name="android:tint">@color/colorPrimary</item>

@@ -8,9 +8,12 @@
     tools:context="com.example.android.localbusiness.MainActivity">
 
     <LinearLayout
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:orientation="vertical">
+
 
         <ImageView
             android:layout_width="match_parent"
@@ -30,117 +33,126 @@
             android:text="@string/storeName" />
 
         <LinearLayout
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/betweenInfo">
+            android:orientation="vertical">
 
-            <ImageView
-                android:contentDescription="@string/icoAddress"
-                style="@style/icon"
-                android:src="@drawable/address" />
 
-            <TextView
-                style="@style/normalText"
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/addressInfo1" />
-        </LinearLayout>
+                android:layout_marginTop="@dimen/betweenInfo">
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/standard">
+                <ImageView
+                    style="@style/icon"
+                    android:contentDescription="@string/icoAddress"
+                    android:src="@drawable/address" />
 
-            <ImageView
-                android:contentDescription="@string/icoClock"
-                style="@style/icon"
-                android:src="@drawable/clock" />
+                <TextView
+                    style="@style/normalText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/addressInfo1" />
+            </LinearLayout>
 
-            <TextView
-                style="@style/normalText"
-                android:text="@string/Time1" />
-
-            <TextView
-                style="@style/normalText"
-                android:text="@string/Time2" />
-
-
-        </LinearLayout>
-
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/standard">
-
-            <ImageView
-                android:contentDescription="@string/icoPhone"
-                style="@style/icon"
-                android:src="@drawable/phone" />
-
-            <TextView
-                style="@style/normalText"
-                android:text="@string/phone" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/betweenInfo">
-
-            <ImageView
-                android:contentDescription="@string/email"
-                style="@style/icon"
-                android:src="@drawable/email" />
-
-            <TextView
-                style="@style/normalText"
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/email" />
-        </LinearLayout>
+                android:layout_marginTop="@dimen/standard">
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/betweenInfo">
+                <ImageView
+                    style="@style/icon"
+                    android:contentDescription="@string/icoClock"
+                    android:src="@drawable/clock" />
 
-            <ImageView
-                android:contentDescription="@string/instagram"
-                style="@style/icon"
-                android:src="@drawable/instagram" />
+                <TextView
+                    style="@style/normalText"
+                    android:text="@string/Time1" />
 
-            <TextView
-                style="@style/normalText"
+                <TextView
+                    style="@style/normalText"
+                    android:text="@string/Time2" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/instagram" />
+                android:layout_marginTop="@dimen/standard">
 
+                <ImageView
+                    style="@style/icon"
+                    android:contentDescription="@string/icoPhone"
+                    android:src="@drawable/phone" />
+
+                <TextView
+                    style="@style/normalText"
+                    android:text="@string/phone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/betweenInfo">
+
+                <ImageView
+                    style="@style/icon"
+                    android:contentDescription="@string/email"
+                    android:src="@drawable/email" />
+
+                <TextView
+                    style="@style/normalText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/email" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/betweenInfo">
+
+                <ImageView
+                    style="@style/icon"
+                    android:contentDescription="@string/instagram"
+                    android:src="@drawable/instagram" />
+
+                <TextView
+                    style="@style/normalText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/instagram" />
+
+            </LinearLayout>
         </LinearLayout>
 
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="@dimen/image"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
             android:layout_marginBottom="@dimen/doubleStandard"
             android:layout_marginTop="@dimen/doubleStandard">
 
             <ImageView
-                android:contentDescription="@string/showcase"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/rest"
                 android:layout_weight="1"
-                android:scaleType="fitXY"
+                android:contentDescription="@string/showcase"
+                android:scaleType="centerInside"
                 android:src="@drawable/vetrina" />
 
             <ImageView
-                android:contentDescription="@string/tShirts"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/rest"
                 android:layout_weight="1"
-                android:scaleType="fitXY"
+                android:contentDescription="@string/tShirts"
+                android:scaleType="centerInside"
                 android:src="@drawable/magliette1" />
 
 
