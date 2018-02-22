@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingEnd="@dimen/margin"
+    android:paddingStart="@dimen/margin"
+    tools:context="com.example.android.localbusiness.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/image"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/logo"
+            android:scaleType="centerInside"
+            android:src="@drawable/logo1" />
+
+        <TextView
+            style="@style/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/doubleStandard"
+            android:elevation="@dimen/standard"
+            android:gravity="center_horizontal"
+            android:text="@string/storeName" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/betweenInfo">
+
+            <ImageView
+                android:contentDescription="@string/icoAddress"
+                style="@style/icon"
+                android:src="@drawable/address" />
+
+            <TextView
+                style="@style/normalText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/addressInfo1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/standard">
+
+            <ImageView
+                android:contentDescription="@string/icoClock"
+                style="@style/icon"
+                android:src="@drawable/clock" />
+
+            <TextView
+                style="@style/normalText"
+                android:text="@string/Time1" />
+
+            <TextView
+                style="@style/normalText"
+                android:text="@string/Time2" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/standard">
+
+            <ImageView
+                android:contentDescription="@string/icoPhone"
+                style="@style/icon"
+                android:src="@drawable/phone" />
+
+            <TextView
+                style="@style/normalText"
+                android:text="@string/phone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/betweenInfo">
+
+            <ImageView
+                android:contentDescription="@string/email"
+                style="@style/icon"
+                android:src="@drawable/email" />
+
+            <TextView
+                style="@style/normalText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/email" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/betweenInfo">
+
+            <ImageView
+                android:contentDescription="@string/instagram"
+                style="@style/icon"
+                android:src="@drawable/instagram" />
+
+            <TextView
+                style="@style/normalText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/instagram" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/image"
+            android:layout_marginBottom="@dimen/doubleStandard"
+            android:layout_marginTop="@dimen/doubleStandard">
+
+            <ImageView
+                android:contentDescription="@string/showcase"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/rest"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:src="@drawable/vetrina" />
+
+            <ImageView
+                android:contentDescription="@string/tShirts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/rest"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:src="@drawable/magliette1" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+

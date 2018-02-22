@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin">16dp</dimen>
+    <dimen name="standard">10dp</dimen>
+    <dimen name="image">150dp</dimen>
+    <dimen name="titleText">35sp</dimen>
+    <dimen name="doubleStandard">20dp</dimen>
+    <dimen name="normalText">19sp</dimen>
+    <dimen name="icon">30dp</dimen>
+    <dimen name="rest">2dp</dimen>
+    <dimen name="betweenInfo">15dp</dimen>
+    <dimen name="marginInfo">35dp</dimen>
+
+
+</resources>

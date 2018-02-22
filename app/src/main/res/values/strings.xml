@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Local Business</string>
+    <string name="storeName">Store in Genova</string>
+    <string name="addressInfo1">Via S. Vincenzo 93R \n16121 Genova GE\nItaly</string>
+    <string name="addressInfo2">16121 Genova GE</string>
+    <string name="addressInfo3">Italy</string>
+    <string name="phone">+390104551420</string>
+    <string name="email">genova@pampling.com</string>
+    <string name="instagram">instagram.com/pampling_genova/</string>
+    <string name="icoPhone">a phone icon</string>
+    <string name="logo">business logo</string>
+    <string name="icoClock">a clock icon</string>
+    <string name="icoAddress">an address icon</string>
+    <string name="icoEmail">a email icon</string>
+    <string name="icoInsta">instagram icon</string>
+    <string name="showcase">business showcase </string>
+    <string name="tShirts">detail of t–shirts</string>
+    <string name="Time1">Monday\nTuesday\nWednesday\nThursday\nFriday\nSaturday\nSunday</string>
+    <string name="Time2">14:30–19:30\n10–19:30\n10–19:30\n10–19:30\n10–19:30\n10–19:30\nClose</string>
+
+</resources>
